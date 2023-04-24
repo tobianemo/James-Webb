@@ -1,0 +1,238 @@
+/* CSS Document */
+
+/*		Colors
+	#808283 - Dark Grey
+	#f2a444 - Yellow (ish)
+	#bb622b - Dark Orange
+	#d67135 - Orange
+	#8f9192 - Lighter Grey
+*/
+
+/*		Fonts
+
+font-family: 'Anton', sans-serif;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Bree Serif', serif;
+font-family: 'Righteous', cursive;
+
+*/
+
+* {
+	padding: 0;
+	border: 0;
+	margin: 0;
+}
+
+.hnav {
+	width: 100%;
+	height: 150px;
+	border-bottom: 10px ridge #000;
+	background-color: #808283;
+}
+
+.hnav img {
+	width: 19.5%;
+	padding: 2%;
+	float: left;
+}
+
+.hnav ul {
+	list-style-type: none;
+	text-align: center;
+}
+
+.hnav ul li {
+	float: left;
+	padding: 5% 2% 2% 3%;
+}
+
+.hnav ul li a {
+	text-decoration: none;
+	font-family: 'Righteous', cursive;
+	font-size: 1.25em;
+	color: #000;
+}
+
+.hnav ul li a:hover {
+	color: #d67135;
+}
+
+header {
+	height: 400px;
+	background-image: url("../images/header-image.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+header h1 {
+	color: #f2a444;
+	font-size: 4em;
+	padding-top: 80px;
+	padding-left: 150px;
+	font-family: 'Righteous', cursive;
+	
+}
+
+header h2 {
+	color: #bb622b;
+	font-size: 2em;
+	padding-left: 400px;
+	font-family: 'Bebas Neue', cursive;
+	margin-top: -10px;
+}
+
+main {
+	min-height: 800px;
+	border-top: 10px ridge #d67135;
+	background-color: #000;
+}
+
+blockquote {
+	font-size: 4em;
+	padding-left: 20%;
+	margin-top: 50px;
+	font-family: 'Bebas Neue', cursive;
+	color: #f2a444;
+}
+
+main p {
+	width: 40%;
+	float: left;
+	padding: 5% 10% 0%;
+	font-family: 'Bree Serif', serif;
+	color: #fff;
+}
+
+main img {
+	float: left;
+	width: 30%;
+	margin-top: -10%;
+	border: 10px double #d67135;
+}
+
+#newsletter main {
+	height: 1000px;
+}
+
+form {
+	float: left;
+	padding: 5% 10% 0%;
+	width: 40%;
+	color: #fff;
+}
+
+table {
+	font-size: 1.5em;
+	margin-top: -50px;
+}
+
+tr {
+	padding-top: 10%;
+	font-family: 'Anton', sans-serif;
+}
+
+th {
+	color: #f2a444;
+	padding-bottom: 5%;
+}
+
+td {
+	color: #d67135;
+}
+
+#fname, #lname, #streetadd, #citystate, #zip, #email {
+	padding: 2% 75% 2% 2%;
+	border-radius: 10px 10px;
+	border: 5px double #d67135;
+	background-color: #fff;
+}
+
+.btn {
+	font-size: 1em;
+	width: 100px;
+	height: 50px;
+	margin-top: 25px;
+	font-family: 'Bebas Neue', cursive;
+	border-radius: 10px 10px;
+	border: 5px double #d67135;
+	background-color: #fff;
+}
+
+.btn:hover {
+	background-color: #d67135;
+	border: 5px double #fff;
+	color: #fff;
+}
+
+#newsletter img {
+	margin-top: 5%;
+}
+
+.fnav {
+	width: 100%;
+	height: 100px;
+	border-top: 10px groove #d67135;
+	background-color: #f2a444;
+}
+
+.fnav ul {
+	list-style-type: none;
+	text-align: center;
+}
+
+.fnav ul li {
+	float: left;
+	padding: 4.6%;
+	padding-top: 2.5%;
+}
+
+.fnav ul li a {
+	text-decoration: none;
+	font-family: 'Righteous', cursive;
+	font-size: 1.25em;
+	color: #000;
+}
+
+.fnav ul li a:hover {
+	color: #d67135;
+}
+
+footer {
+	background-color: #2D2D2D;
+	height: 500px;
+	text-align: center;
+	font-family: 'Bree Serif', serif;
+	border-top: 10px ridge #d67135;
+	color: #fff;
+}
+
+footer p {
+	padding-top: 2%;
+	font-size: 1.25em;
+}
+
+footer h5 {
+	padding-top: 1%;
+}
+
+footer h4 {
+	padding-top: 1%;
+}
+
+footer a {
+	text-decoration: none;
+	font-family: 'Anton', sans-serif;
+	color: #bb622b;
+}
+
+
+
+
+
+
+
+
+
+
+
+
